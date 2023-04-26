@@ -1,0 +1,9 @@
+@mixin color-red {
+  color: red;
+}
+
+@mixin d-flex($dir, $gap) {
+  display: flex;
+  flex-direction: $dir;
+  gap: $gap;
+}

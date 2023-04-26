@@ -1,0 +1,15 @@
+@import '../scss/mixins';
+
+.styleguide {
+  @include d-flex(row, 0);
+
+  .styleguide__nav {
+    border-right: 1px solid #213547;
+    padding: 10px 20px;
+    height: calc(100vh - 76px);
+  }
+
+  article {
+    padding: 10px 20px;
+  }
+}
