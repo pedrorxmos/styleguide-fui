@@ -5,7 +5,7 @@ import './Topbar.scss';
 export default function Topbar() {
   return (
     <>
-      <header>
+      <header className="topbar">
         <h1>Styleguide</h1>
 
         <nav>
