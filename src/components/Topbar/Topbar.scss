@@ -1,0 +1,23 @@
+@import '../../scss/mixins.scss';
+
+header {
+  border-bottom: 1px solid #213547;
+  color: #213547;
+  margin: 0;
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+
+    a {
+      color: inherit;
+    }
+  }
+}
