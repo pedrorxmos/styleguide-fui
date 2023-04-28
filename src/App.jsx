@@ -14,8 +14,8 @@ function App() {
       <main>
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/styleguide" element={<Styleguide />}>
-            <Route path="./buttons" element={<Buttons/>} />
+          <Route path="styleguide" element={<Styleguide />} >
+            <Route path="buttons" element={<Buttons />} />
           </Route>
         </Routes>
       </main>

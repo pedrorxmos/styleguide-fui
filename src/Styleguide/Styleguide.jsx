@@ -9,7 +9,7 @@ export default function Styleguide() {
     <>
       <section className="styleguide">
         <Nav/>
-        <Buttons />
+        <Outlet/>
       </section>
     </>
   )
