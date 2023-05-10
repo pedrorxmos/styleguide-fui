@@ -3,12 +3,17 @@
 
 .topbar {
   border-bottom: 1px solid $text-color;
+  background-color: $bg-color;
   margin: 0;
   width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 20px 40px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
 
   nav {
     display: flex;
