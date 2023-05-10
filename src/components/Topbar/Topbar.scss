@@ -1,8 +1,8 @@
 @import '../../scss/mixins.scss';
+@import '../../scss/variables.scss';
 
 .topbar {
-  border-bottom: 1px solid #213547;
-  color: #213547;
+  border-bottom: 1px solid $text-color;
   margin: 0;
   width: 100vw;
   display: flex;
@@ -20,7 +20,7 @@
       color: inherit;
 
       &:hover {
-        color: lighten(#213547, 20)
+        color: lighten($text-color, 20)
       }
     }
   }

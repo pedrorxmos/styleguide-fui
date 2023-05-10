@@ -5,6 +5,7 @@ import Topbar from './components/Topbar/Topbar'
 import Buttons from './Styleguide/views/Buttons'
 
 import './scss/global.scss'
+import Colors from './Styleguide/views/Colors'
 
 function App() {
 
@@ -16,6 +17,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="styleguide" element={<Styleguide />} >
             <Route path="buttons" element={<Buttons />} />
+            <Route path="colors" element={<Colors />} />
           </Route>
         </Routes>
       </main>

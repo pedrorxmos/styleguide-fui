@@ -1,0 +1,49 @@
+@import '../../../scss/variables';
+
+.color-card {
+  display: block;
+  position: relative;
+  width:  50px;
+  height: 50px;
+  border-radius: 25%;
+  background-color: $neutralGray;
+  
+  &:before {
+    content: attr(data-color);
+    position: absolute;
+    display: block;
+    color: black;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 0.666667em;
+  }
+}
+
+.neutralGray{
+  background-color: $neutralGray;
+}
+.primary{
+  background-color: $primary;
+}
+.info{
+  background-color: $info;
+}
+.error{
+  background-color: $error;
+}
+.warning{
+  background-color: $warning;
+}
+.success{
+  background-color: $success;
+}
+.amethyst{
+  background-color: $amethyst;
+}
+.tangerine{
+  background-color: $tangerine;
+}
+.olive{
+  background-color: $olive;
+}
