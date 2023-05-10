@@ -22,3 +22,16 @@ $font-secondary: 'Oswald', sans-serif;
 $font-headers: $font-secondary;
 
 $font-size-medium: 1rem;
+
+$size-vars: (
+  "xx-small" :    .50,
+  "x-small"  :    .70,  // 11px
+  "small"    :    .75,  // 12px
+  "medium"   :    .875, // 14px
+  "normal"   :    1,    // 16px
+  "x-normal" :    1.12, // 18px
+  "big"      :    1.3,  // 21px
+  "x-big"    :    1.8,  // 29px
+  "xx-big"   :    2.4,  // 32px
+  "huge"     :    3.75  // 60px
+);

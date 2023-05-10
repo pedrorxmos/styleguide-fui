@@ -1,0 +1,3 @@
+@function fs($font-size) {
+  @return map-get($size-vars, $font-size) * $font-size-medium;
+}

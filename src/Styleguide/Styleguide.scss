@@ -2,6 +2,7 @@
 
 .styleguide {
   @include d-flex(row, 0);
+  align-items: stretch;
 
   .styleguide__nav {
     border-right: 1px solid #213547;
@@ -12,14 +13,11 @@
     flex-direction: column;
   }
 
-  article {
-    padding: 10px 20px;
-  }
-
   .sg-section {
-    @include d-flex(column, 1rem);
+    @include d-flex(column, 2rem);
     align-items: flex-start;
-    width: calc(100% - 180px);
+    width: 100%;
+    padding: 10px 20px;
 
     .section__list {
       // display: flex;

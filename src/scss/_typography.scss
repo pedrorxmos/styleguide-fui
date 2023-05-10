@@ -1,3 +1,16 @@
 a {
   text-decoration: none;
 }
+
+p {
+  margin: 0;
+  font-size: fs('normal');
+}
+
+small {
+  font-size: fs('small');
+}
+
+big {
+  font-size: fs('big');
+}

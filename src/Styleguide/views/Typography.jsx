@@ -11,7 +11,9 @@ export default function Typography() {
         <h5>H5 - Lorem, ipsum dolor sit amet consectetur adipisicing elit.</h5>
         <h6>H6 - Lorem, ipsum dolor sit amet consectetur adipisicing elit.</h6>
 
-        <p>Text - Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <small>SMALL - Lorem, ipsum dolor sit amet consectetur adipisicing elit.</small>
+        <p>P - Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <big>BIG - Lorem, ipsum dolor sit amet consectetur adipisicing elit.</big>
         
       </article>
     </>
