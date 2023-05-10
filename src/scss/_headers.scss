@@ -2,14 +2,40 @@ h1, .h1 {
   margin: 0;
   line-height: 1.1;
   font-family: $font-headers;
+  font-size: 2rem;
 }
 
 h2, .h2 {
   margin: 0;
+  line-height: 1.1;
   font-family: $font-headers;
+  font-size: 1.666667rem;
 }
 
 h3, .h3 {
   margin: 0;
+  line-height: 1.1;
   font-family: $font-headers;
+  font-size: 1.333333rem;
+}
+
+h4, .h4 {
+  margin: 0;
+  line-height: 1.1;
+  font-family: $font-headers;
+  font-size: 1.133333rem;
+}
+
+h5, .h5 {
+  margin: 0;
+  line-height: 1.1;
+  font-family: $font-headers;
+  font-size: 0.833333rem;
+}
+
+h6, .h6 {
+  margin: 0;
+  line-height: 1.1;
+  font-family: $font-headers;
+  font-size: 0.666667rem;
 }

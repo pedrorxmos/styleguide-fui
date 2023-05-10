@@ -7,6 +7,7 @@ export default function Nav() {
         <h2>Style Nav</h2>
         <Link to="./buttons">Buttons</Link>
         <Link to="./colors">Colors</Link>
+        <Link to="./typography">Typography</Link>
       </nav>
     </>
   )
