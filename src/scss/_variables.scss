@@ -49,7 +49,7 @@ $red: $red50;
 
 $yellow0: #B7CA17;
 $yellow25: #D4E72C;
-$yellow50: #D4E72C;
+$yellow50: #E2EF70;
 $yellow75: #EBF49F;
 $yellow100: #EBF49F;
 $yellow: $yellow50;
@@ -68,10 +68,10 @@ $bg-color: $grey100;
 // TYPOGRAPHY
 
 
-$font-primary: 'Roboto', sans-serif;
-$font-secondary: 'Oswald', sans-serif;
+$font-primary: 'Lato', sans-serif;
+$font-secondary: 'IBM Plex Mono', monospace;
 
-$font-headers: $font-secondary;
+$font-headers: $font-primary;
 
 $font-size-medium: 1rem;
 

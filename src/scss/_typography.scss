@@ -14,3 +14,8 @@ small {
 big {
   font-size: fs('big');
 }
+
+code {
+  font-family: $font-secondary;
+  font-size: fs('medium');
+}

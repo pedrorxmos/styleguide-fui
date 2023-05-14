@@ -1,49 +1,58 @@
 @import '../../../scss/variables';
+@import '../../../scss/mixins';
+@import '../../../scss/functions';
 
 .color-card {
-  display: block;
+  @include d-flex(column, 12px);
   position: relative;
-  width:  50px;
-  height: 50px;
-  border-radius: 25%;
-  background-color: $neutralGray;
-  
-  &:before {
-    content: attr(data-color);
-    position: absolute;
-    display: block;
-    color: black;
-    top: 100%;
-    left: 50%;
-    transform: translateX(-50%);
-    font-size: 0.666667em;
-  }
-}
+  padding: 20px;
+  border-radius: 20px;
+  width: 200px;
+  height: 225px;
+  background-color: white;
+  box-shadow: 0px 2px 4px $grey60;
 
-.neutralGray{
-  background-color: $neutralGray;
-}
-.primary{
-  background-color: $primary;
-}
-.info{
-  background-color: $info;
-}
-.error{
-  background-color: $error;
-}
-.warning{
-  background-color: $warning;
-}
-.success{
-  background-color: $success;
-}
-.amethyst{
-  background-color: $amethyst;
-}
-.tangerine{
-  background-color: $tangerine;
-}
-.olive{
-  background-color: $olive;
+  .color-block {
+    background-color: var(--block-color);
+    height: 93px;
+    box-shadow: inset 1px 2px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 12px;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+
+
+  }
+
+  .card__info {
+    @include d-flex(column, 0);
+    height: 100%;
+    justify-content: space-between;
+    padding: 0px 5px;
+
+    .card__description {
+      @include d-flex(column, 4px);
+
+      .card__title {
+        @include d-flex(row, 0);
+        justify-content: space-between;
+
+        span {
+          font-size: fs('x-normal');
+          font-weight: 400;
+        }
+
+        svg {
+          height: 18px;
+          width: 18px;
+        }
+      }
+
+      .description {
+        font-weight: 300;
+        font-size: fs('small')
+      }
+    }
+  }
 }
