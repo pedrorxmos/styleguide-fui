@@ -5,8 +5,9 @@ export default function Nav() {
     <>
       <nav className="styleguide__nav">
         <h2>Style Nav</h2>
-        <Link to="./buttons">Buttons</Link>
         <Link to="./colors">Colors</Link>
+        <Link to="./typography">Typography</Link>
+        <Link to="./buttons">Buttons</Link>
       </nav>
     </>
   )
