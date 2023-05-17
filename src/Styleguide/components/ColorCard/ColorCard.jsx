@@ -5,7 +5,9 @@ export default function ColorCard({color, hex, description}) {
   return (
     <>
       <div className="color-card">
-        <div className={`color-block ${color}`} style={{'--block-color': `#${hex}`}}></div>
+        {/* <div className={`color-block ${color}`} style={{'--block-color': `#${hex}`}}></div> */}
+
+        <div className={`color-block bg-${color}`}></div>
 
         <div className="card__info">
           <div className="card__description">

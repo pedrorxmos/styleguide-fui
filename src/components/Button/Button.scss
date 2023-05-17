@@ -1,7 +1,8 @@
 @import '../../scss/variables';
+@import '../../scss/mixins';
+@import '../../scss/functions';
 
 .btn {
-  background-color: $blue;
   cursor: pointer;
   display: flex;
   flex-direction: row;
@@ -9,29 +10,29 @@
   align-items: center;
   padding: 16px;
   gap: 10px;
-  background: $blue;
-  border: 1px solid $blue0;
+  background: colormap("blue");
+  border: 1px solid colormap("blue0");
   border-radius: 8px;
-  color: $grey100;
+  color: colormap("grey100");
   font-family: $font-primary;
 
   &.btn-main {
-    background: $blue;
-    border: 1px solid $blue0;
+    background: colormap("blue");
+    border: 1px solid colormap("blue0");
   }
 
   &.btn-primary {
-    background: $grey40;
-    border: 1px solid $grey0;
+    background: colormap("grey40");
+    border: 1px solid colormap("grey0");
   }
 
   &.btn-secondary {
-    background: $violet;
-    border: 1px solid $violet0;
+    background: colormap("violet");
+    border: 1px solid colormap("violet0");
   }
 
   &.btn-error {
-    background: $red;
-    border: 1px solid $red0;
+    background: colormap("red");
+    border: 1px solid colormap("red0");
   }
 }
