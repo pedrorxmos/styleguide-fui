@@ -1,0 +1,22 @@
+$grid: 12;
+$gap: 8px;
+$grid-margin: $gap;
+
+.grid {
+  display: flex;
+  flex-direction: row;
+  justify-content: stretch;
+  gap: $gap;
+  margin-bottom: $grid-margin;
+
+  [class^="flex__item--"] {
+    background: darken(lavender, 5);
+    height: 50px;
+  }
+
+  @for $i from 1 to $grid {
+    .flex__item--#{$i} {
+      flex: 0 0 calc(#{(($i/$grid) * 100%)} - #{$gap});
+    }
+  }
+}
