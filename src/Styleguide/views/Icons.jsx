@@ -1,6 +1,4 @@
-import IconAcademicCap from "../../components/Icons/IconAcademicCap";
-import IconCheck from "../../components/Icons/IconCheck";
-
+import { IconAcademicCap, IconCheck } from "../../components/Icons";
 
 export default function Icons() {
   return (
@@ -8,7 +6,7 @@ export default function Icons() {
       <article className="sg-section icons">
         <h2>Icons</h2>
         <IconAcademicCap width="32px" height="32px" />
-        <IconCheck/>
+        <IconCheck className="iconn"/>
         
       </article>
     </>
