@@ -9,22 +9,21 @@
   .styleguide__nav {
     border-right: 1px solid #213547;
     background-color: $bg-color;
-    padding: 10px 20px;
-    height: calc(100vh - 86.4px);
+    padding: 30px 20px;
+    height: 100vh;
     width: 180px;
     display: flex;
     flex-direction: column;
     position: fixed;
     left: 0;
-    top: 86.4px;
+    top: 0;
   }
 
   .sg-section {
-    @include d-flex(column, 2rem);
+    @include d-flex(column, 1.5rem);
     align-items: flex-start;
     width: 100%;
-    padding: 10px 20px;
-    margin-top: 97px;
+    padding: 30px 20px;
     margin-left: 180px;
 
     .section__list {

@@ -8,6 +8,7 @@ export default function Nav() {
         <Link to="./colors">Colors</Link>
         <Link to="./typography">Typography</Link>
         <Link to="./buttons">Buttons</Link>
+        <Link to="./icons">Icons</Link>
       </nav>
     </>
   )
