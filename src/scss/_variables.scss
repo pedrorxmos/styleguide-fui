@@ -1,72 +1,59 @@
 /* COLORS */
-
-$neutralGray: #97A1AF;
-$primary: #4C94FF;
-$info: #66BFFF;
-$error: #F76E6E;
-$warning: #FFC34C;
-$success: #79D2A6;
-$amethyst: #BD7DE8;
-$tangerine: #FAA638;
-$olive: #ABBD75;
-
 // Grey Scale
 $grey0: #333333;
 $grey20: #666666;
-$grey40: #9A9A9A;
-$grey60: #CCCCCC;
-$grey80: #F3F3F3;
-$grey100: #FAFAFA;
+$grey40: #9a9a9a;
+$grey60: #cccccc;
+$grey80: #f3f3f3;
+$grey100: #fafafa;
 
 // Color palette
-$blue0: #0036B8;
-$blue25: #0045EB;
-$blue50: #3772FF;
-$blue75: #9EBBFF;
-$blue100: #D1DFFF;
+$blue0: #0036b8;
+$blue25: #0045eb;
+$blue50: #3772ff;
+$blue75: #9ebbff;
+$blue100: #d1dfff;
 $blue: $blue50;
 
-$violet0: #7826FD;
-$violet25: #9758FE;
-$violet50: #B88DFE;
-$violet75: #D6BDFE;
-$violet100: #E6D7FF;
+$violet0: #7826fd;
+$violet25: #9758fe;
+$violet50: #b88dfe;
+$violet75: #d6bdfe;
+$violet100: #e6d7ff;
 $violet: $violet50;
 
-$pink0: #AA00B8;
-$pink25: #D900EB;
-$pink50: #F038FF;
-$pink75: #F89EFF;
-$pink100: #FCD1FF;
+$pink0: #aa00b8;
+$pink25: #d900eb;
+$pink50: #f038ff;
+$pink75: #f89eff;
+$pink100: #fcd1ff;
 $pink: $pink50;
 
-$red0: #CA1756;
-$red25: #E72C6E;
-$red50: #EF709D;
-$red75: #F49FBD;
-$red100: #F9CDDC;
+$red0: #ca1756;
+$red25: #e72c6e;
+$red50: #ef709d;
+$red75: #f49fbd;
+$red100: #f9cddc;
 $red: $red50;
 
-$yellow0: #B7CA17;
-$yellow25: #D4E72C;
-$yellow50: #E2EF70;
-$yellow75: #EBF49F;
-$yellow100: #EBF49F;
+$yellow0: #b7ca17;
+$yellow25: #d4e72c;
+$yellow50: #e2ef70;
+$yellow75: #ebf49f;
+$yellow100: #ebf49f;
 $yellow: $yellow50;
 
-$cyan0: #17BACA;
-$cyan25: #2CD7E7;
-$cyan50: #70E4EF;
-$cyan75: #9FEDF4;
-$cyan100: #CDF5F9;
+$cyan0: #17baca;
+$cyan25: #2cd7e7;
+$cyan50: #70e4ef;
+$cyan75: #9fedf4;
+$cyan100: #cdf5f9;
 $cyan: $cyan50;
 
 $text-color: $grey0;
 $bg-color: $grey100;
 
-
 // TYPOGRAPHY
-
 
 $font-primary: 'Lato', sans-serif;
 $font-secondary: 'IBM Plex Mono', monospace;
@@ -76,14 +63,59 @@ $font-headers: $font-primary;
 $font-size-medium: 1rem;
 
 $size-vars: (
-  "xx-small" :    .50,
-  "x-small"  :    .70,  // 11px
-  "small"    :    .75,  // 12px
-  "medium"   :    .875, // 14px
-  "normal"   :    1,    // 16px
-  "x-normal" :    1.12, // 18px
-  "big"      :    1.3,  // 21px
-  "x-big"    :    1.8,  // 29px
-  "xx-big"   :    2.4,  // 32px
-  "huge"     :    3.75  // 60px
+	'xx-small': 0.5,
+	'x-small': 0.7, // 11px
+	'small': 0.75, // 12px
+	'medium': 0.875, // 14px
+	'normal': 1, // 16px
+	'x-normal': 1.12, // 18px
+	'big': 1.3, // 21px
+	'x-big': 1.8, // 29px
+	'xx-big': 2.4, // 32px
+	'huge': 3.75, // 60px
+);
+
+$color-vars: (
+	'grey0': $grey0,
+	'grey20': $grey20,
+	'grey40': $grey40,
+	'grey60': $grey60,
+	'grey80': $grey80,
+	'grey100': $grey100,
+	'blue0': $blue0,
+	'blue25': $blue25,
+	'blue50': $blue50,
+	'blue75': $blue75,
+	'blue100': $blue100,
+	'blue': $blue,
+	'violet0': $violet0,
+	'violet25': $violet25,
+	'violet50': $violet50,
+	'violet75': $violet75,
+	'violet100': $violet100,
+	'violet': $violet,
+	'pink0': $pink0,
+	'pink25': $pink25,
+	'pink50': $pink50,
+	'pink75': $pink75,
+	'pink100': $pink100,
+	'pink': $pink,
+	'red0': $red0,
+	'red25': $red25,
+	'red50': $red50,
+	'red75': $red75,
+	'red100': $red100,
+	'red': $red,
+	'yellow0': $yellow0,
+	'yellow25': $yellow25,
+	'yellow50': $yellow50,
+	'yellow75': $yellow75,
+	'yellow100': $yellow100,
+	'yellow': $yellow,
+	'cyan0': $cyan0,
+	'cyan25': $cyan25,
+	'cyan50': $cyan50,
+	'cyan75': $cyan75,
+	'cyan100': $cyan100,
+	'cyan': $cyan,
 );
