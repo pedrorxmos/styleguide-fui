@@ -7,6 +7,7 @@ import Buttons from './Styleguide/views/Buttons'
 import './scss/global.scss'
 import Colors from './Styleguide/views/Colors'
 import Typography from './Styleguide/views/Typography'
+import Icons from './Styleguide/views/Icons'
 
 function App() {
 
@@ -20,6 +21,7 @@ function App() {
             <Route path="buttons" element={<Buttons />} />
             <Route path="colors" element={<Colors />} />
             <Route path="typography" element={<Typography />} />
+            <Route path="icons" element={<Icons />} />
           </Route>
         </Routes>
       </main>
